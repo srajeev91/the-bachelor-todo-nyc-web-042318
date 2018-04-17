@@ -58,4 +58,11 @@ def get_average_age_for_season(data, season)
     end
   end
   
+  i = 0
+  avg = 0
+  while i < age.length
+    avg += age[i]
+    i += 1
+  end
+  avg = avg / age.length
 end
