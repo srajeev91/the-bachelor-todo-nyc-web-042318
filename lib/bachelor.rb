@@ -65,5 +65,5 @@ def get_average_age_for_season(data, season)
     i += 1
   end
   avg = avg / age.length
-  return avg.ceil
+  return avg.round
 end
