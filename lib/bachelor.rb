@@ -5,6 +5,7 @@ def get_first_name_of_season_winner(data, season)
       hashes.each do |contestants|
         if contestants["status"] =="Winner"
           
+          
 end
 
 def get_contestant_name(data, occupation)
