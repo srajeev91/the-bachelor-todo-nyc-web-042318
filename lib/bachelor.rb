@@ -64,6 +64,6 @@ def get_average_age_for_season(data, season)
     avg += age[i].to_i
     i += 1
   end
-  avg = avg / age.length
+  avg = avg.to_f / age.length.to_f
   return avg.round
 end
