@@ -4,7 +4,11 @@ def get_first_name_of_season_winner(data, season)
     if season_number == season
       hashes.each do |contestants|
         if contestants["status"] =="Winner"
-          return contestants["name"].split
+          return contestants["name"].split[0]
+        end
+      end
+    end
+  end
           
 end
 
